@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/img/close.png</file>
+        <file>assets/img/max.png</file>
+        <file>assets/img/mini.png</file>
+        <file>assets/img/setting.png</file>
+        <file>assets/img/close_dark.png</file>
+        <file>assets/img/max_dark.png</file>
+        <file>assets/img/setting_dark.png</file>
+        <file>assets/img/mini_dark.png</file>
+        <file>assets/qss/darkstyle.qss</file>
+        <file>assets/qss/lightstyle.qss</file>
+        <file>assets/img/logo.png</file>
+        <file>assets/img/logo_dark.png</file>
+        <file>assets/qss/style.qss</file>
+    </qresource>
+</RCC>
