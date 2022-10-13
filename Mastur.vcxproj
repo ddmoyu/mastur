@@ -101,9 +101,11 @@
     <ClInclude Include="assets\qss\lightstyle.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
     <None Include="assets\qss\darkstyle.qss" />
     <None Include="assets\qss\lightstyle.qss" />
     <None Include="assets\qss\style.qss" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\img\close.png" />

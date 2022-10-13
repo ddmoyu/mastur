@@ -64,6 +64,8 @@
     <None Include="assets\qss\darkstyle.qss" />
     <None Include="assets\qss\lightstyle.qss" />
     <None Include="assets\qss\style.qss" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\img\close.png">
