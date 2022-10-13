@@ -249,7 +249,10 @@
       <string notr="true"/>
      </property>
      <property name="tabPosition">
-      <enum>QTabWidget::North</enum>
+      <enum>QTabWidget::West</enum>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
      </property>
      <property name="currentIndex">
       <number>0</number>
@@ -262,32 +265,32 @@
      </property>
      <widget class="QWidget" name="home">
       <attribute name="title">
-       <string>home</string>
+       <string>主页</string>
       </attribute>
      </widget>
      <widget class="QWidget" name="view">
       <attribute name="title">
-       <string>view</string>
+       <string>浏览</string>
       </attribute>
      </widget>
      <widget class="QWidget" name="download">
       <attribute name="title">
-       <string>download</string>
+       <string>下载</string>
       </attribute>
      </widget>
      <widget class="QWidget" name="manage">
       <attribute name="title">
-       <string>manage</string>
+       <string>管理</string>
       </attribute>
      </widget>
      <widget class="QWidget" name="star">
       <attribute name="title">
-       <string>star</string>
+       <string>收藏</string>
       </attribute>
      </widget>
-     <widget class="QWidget" name="setting">
+     <widget class="QWidget" name="settings">
       <attribute name="title">
-       <string>setting</string>
+       <string>设置</string>
       </attribute>
      </widget>
     </widget>
