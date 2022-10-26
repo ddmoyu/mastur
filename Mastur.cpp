@@ -1,4 +1,4 @@
-#include "Mastur.h"
+﻿#include "Mastur.h"
 #include "assets/qss/lightstyle.h"
 #include "assets/qss/darkstyle.h"
 
@@ -62,4 +62,27 @@ void Mastur::initQss()
 		ui.btnMax->setIcon(QIcon(":/assets/img/max_dark.png"));
 		ui.btnClose->setIcon(QIcon(":/assets/img/close_dark.png"));
 	}
+}
+
+void Mastur::on_btnMini_clicked()
+{
+	this->showMinimized();
+}
+
+void Mastur::on_btnMax_clicked()
+{
+	if (this->isMaximized()) {
+		this->showNormal();
+	}
+	else {
+		this->showMaximized();
+	}
+}
+void Mastur::on_btnClose_clicked()
+{
+	this->close();
+}
+void Mastur::on_btnSettings_clicked()
+{
+	qDebug() << "settings btn cliked" << endl;
 }

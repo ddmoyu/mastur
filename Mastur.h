@@ -1,4 +1,5 @@
-#pragma once
+﻿#pragma once
+#pragma execution_character_set("utf-8")
 
 #include <QtWidgets/QWidget>
 #include "ui_Mastur.h"
@@ -19,4 +20,10 @@ private:
     void initUI();
     void initQss();
     //void initConnect();
+
+public slots:
+    void on_btnMini_clicked();
+    void on_btnMax_clicked();
+    void on_btnClose_clicked();
+    void on_btnSettings_clicked();
 };
